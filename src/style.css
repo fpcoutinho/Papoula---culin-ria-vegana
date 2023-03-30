@@ -49,6 +49,29 @@ h6 {
 
 p {
   font-weight: bold;
+  color: var(--secondary);
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.header .menu a {
+  padding: 0.6rem;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline wavy;
 }
 
 .navbar {
@@ -97,4 +120,13 @@ p {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  color: var(--primary);
 }
