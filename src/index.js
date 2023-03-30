@@ -8,9 +8,9 @@ import Espaco from "./espaco.js";
 
 const content = document.querySelector(".content");
 
+content.appendChild(Nav());
 content.appendChild(Header());
 content.appendChild(Home());
-content.appendChild(Nav());
 
 const home = document.querySelector("#home");
 const menu = document.querySelector("#menu");
