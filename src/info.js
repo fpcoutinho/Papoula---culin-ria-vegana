@@ -48,7 +48,7 @@ const info = () => {
   const infoImg3 = document.createElement("img");
   infoImg3.setAttribute("src", atoPolitico);
   infoImg3.setAttribute("alt", "bandeira");
-  infoImg3.setAttribute("width", "150em");
+  infoImg3.classList.add("micro");
 
   const infoText2 = document.createElement("p");
   const infoText3 = document.createElement("p");
